@@ -1,0 +1,408 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: white;
+  }
+
+.shapka{
+    height: 500px;
+        background: linear-gradient(#f037a5 -60%,#fae62d 140%);
+
+
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.shapka1{
+    text-align: center;
+}
+
+nav ul {
+    width: 484px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+  }
+
+nav a {
+    color: white;
+    text-decoration: none;
+  }
+
+ nav li {
+    font-weight: bold;
+  }
+
+nav a:hover {
+    color:  #1db954;
+  }
+
+#title {
+    width: inherit;
+    padding-top: 120px;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: -.04em;
+    line-height: 1.15;
+  }
+
+#title1{
+    width: inherit;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -.04em;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+. {
+    width: 260px;
+    margin: 0 auto;
+    color: white;
+    background-color: #1db954;
+    padding: 18px 42px 18px;
+    border: 0px;
+    border-radius: 500px;
+    margin-top: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 2px;
+    transition-duration: .3s;
+  }
+
+ .parts:hover {
+    cursor: pointer;
+    background-color: #1ed760;
+  }
+
+/* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 500;
+  }
+
+.container-fluid {
+    padding: 60px 50px;
+  }
+
+.bg-back {
+    background: linear-gradient(#f037a5 -60%,#fae62d 140%);
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+.Services{
+    height: 500px;
+        background: royalblue;
+
+/*    background-image: url(images/music-back.jpg);*/
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Services1{
+        padding-left: 150px;
+}
+
+.bg-backServices {
+    background: cornflowerblue;
+}
+
+#Services_title {
+    width: inherit;
+    padding-top: 120px;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -.04em;
+    line-height: 1.15;
+  }
+
+#Services_title1{
+    width: inherit;
+    padding-top: 30px;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -.04em;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.Services_parts {
+    width: 230px;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    padding: 18px 54px 18px;
+    border: 0px;
+    border-radius: 500px;
+    margin-top: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 2px;
+    transition-duration: .3s;
+  }
+
+ .Services_parts:hover {
+    cursor: pointer;
+   transform:scale(1.04);
+  }
+
+
+.Services_parts {
+     width: 230px;
+    margin: 0 auto;
+    color: white;
+    background-color: royalblue;
+    padding: 16px 54px 16px;
+    border-color: white;
+    border-radius: 500px;
+    margin-top: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 2px;
+    transition-duration: .3s;
+  }
+
+.premium_parts1:hover {
+    cursor: pointer;
+   transform:scale(1.04);
+  }
+
+ .container-fluid {
+    padding: 60px 50px;
+  }
+
+ .panel {
+    border: 1px solid royalblue; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+    border: 1px solid royalblue;
+    background-color: #fff !important;
+    color: royalblue;
+  }
+  .panel-heading {
+    color: #fff !important;
+    background-color: cornflowerblue!important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+    background-color: white !important;
+  }
+  .panel-footer h3 {
+    font-size: 32px;
+  }
+  .panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+  }
+  .panel-footer .btn {
+    margin: 15px 0;
+    background-color: cornflowerblue;
+    color: #fff;
+  }
+
+ .slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+  }
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+.support{
+    text-align: center;
+    height: 500px;
+               background: linear-gradient(royalblue -60%, #1c2963 140%);
+/* background: #1c2963;*/
+
+/*    background-image: url(images/music-back.jpg);*/
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.help{
+    color: lightgray;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.helpa{
+        text-decoration: none;
+
+}
+
+.bg-backsup {
+    background: linear-gradient(#1c2963 -60%, royalblue 140%);
+}
+
+.supmain {
+    padding-top: 50px;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.pi {
+    padding-top: 30px;
+    color: blue;
+    font-weight: 750;
+}
+/*--------------------------------------------------------------------------------------------------------------------------*/
+.shapka-down{
+    height: 600px;
+        background:  rgb(25, 230, 140);
+
+/*    background-image: url(images/music-back.jpg);*/
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+shapka1-down{
+   text-align: center;
+}
+
+.picture{
+    padding-top: 80px;
+    text-align: center;  
+}
+
+.comp{
+    width: 10%;
+}
+
+#title-down {
+    width: inherit;
+    padding-top: 50px;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 750;
+    letter-spacing: -.04em;
+    line-height: 1.15;
+  }
+
+#title1-down{
+    width: inherit;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -.04em;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.btn-parts-down {
+    width: 260px;
+    margin: 0 auto;
+    color: black;
+    background-color: white;
+    padding: 18px 42px 18px;
+    border: 0px;
+    border-radius: 500px;
+    margin-top: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 2px;
+    transition-duration: .3s;
+  }
+
+ .btn-parts-down:hover {
+    cursor: pointer;
+    background-color: #1ed760;
+  }
+
+#main-title-down {
+   
+    padding-top: 50px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 950;
+    letter-spacing: -.04em;
+    line-height: 1.15;
+  }
+
+#main-title1-down{
+    
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -.04em;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.bg-backdown {
+    background:  rgb(25, 230, 140);
+}
